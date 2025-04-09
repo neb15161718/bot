@@ -52,6 +52,6 @@ const PIN_COMMAND = {
   contexts: [0, 1, 2],
 };
 
-const ALL_COMMANDS = [TEST_COMMAND, CHALLENGE_COMMAND];
+const ALL_COMMANDS = [TEST_COMMAND, CHALLENGE_COMMAND, PIN_COMMAND];
 
 InstallGlobalCommands(process.env.APP_ID, ALL_COMMANDS);
